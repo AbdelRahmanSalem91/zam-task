@@ -23,9 +23,6 @@ import Square from "../shared/square/Square.vue";
 import Video from "../shared/video/Video.vue";
 export default {
   name: "Develope",
-  data: function () {
-    return { BrowseGif: BrowseGif };
-  },
   components: {
     Button,
     Circle,
