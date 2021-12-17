@@ -30,7 +30,7 @@
               <span>أسعار تنافسية مع تجربة مجانية وباقات اشتراك متنوعة</span>
             </li>
           </ul>
-          <div class="button__container text-sm-center text-md-end">
+          <div class="button__container text-center text-md-end">
             <Button class="button" />
           </div>
         </div>
