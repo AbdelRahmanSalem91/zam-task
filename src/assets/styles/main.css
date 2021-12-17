@@ -1,0 +1,84 @@
+:root {
+  --main-color: #9458ab;
+  --sec-color: #f7ab49;
+  --gray-bg: #fafafc;
+  --sec-gray-bg: #f7f7f7;
+  --green-color: #42a584;
+  --yellow-color: #fed14a;
+  --chat-icon: #33475b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  direction: rtl;
+}
+body {
+  font-family: "Almarai", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h2 {
+  color: var(--main-color);
+}
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 30px;
+}
+ul {
+  list-style: none;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 50px;
+}
+.footer .logo__image {
+  width: 80px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.footer .logo__text {
+  font-size: 2rem;
+}
+.footer img {
+  border-radius: 15px;
+}
+@media (max-width: 600px) {
+  .footer .logo__text,
+  .footer .icon {
+    font-size: 1.2rem;
+  }
+  .footer .logo__image {
+    width: 50px;
+  }
+}
+.icon {
+  cursor: pointer;
+}
+.shadow {
+  box-shadow: 0px 5px 5px 1px rgba(204, 204, 204, 0.75);
+  -webkit-box-shadow: 0px 5px 5px 1px rgba(204, 204, 204, 0.75);
+  -moz-box-shadow: 0px 5px 5px 1px rgba(204, 204, 204, 0.75);
+}
+.video-shadow {
+  box-shadow: 5px 5px 5px 1px rgba(204, 204, 204, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(204, 204, 204, 0.75);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(204, 204, 204, 0.75);
+}
