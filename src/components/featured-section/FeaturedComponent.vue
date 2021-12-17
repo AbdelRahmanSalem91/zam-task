@@ -92,7 +92,7 @@ export default {
 }
 @media (max-width: 600px) {
   .feature__container {
-    width: 70%;
+    width: 100%;
   }
 }
 </style>
