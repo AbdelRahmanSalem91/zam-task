@@ -90,7 +90,7 @@ export default {
   line-height: 2;
   font-weight: 400;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .feature__container {
     width: 100%;
   }

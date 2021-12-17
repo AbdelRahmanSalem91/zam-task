@@ -26,7 +26,7 @@ export default {
 .icon {
   color: var(--chat-icon);
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .chat-icon {
     width: 50px;
     height: 50px;

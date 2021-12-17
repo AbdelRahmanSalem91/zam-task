@@ -22,10 +22,10 @@ button {
   margin-bottom: 30px;
   cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   button {
-    padding: 7px 15px;
-    font-size: 0.8rem;
+    padding: 10px 15px;
+    font-size: 1rem;
   }
 }
 </style>

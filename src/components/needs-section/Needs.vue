@@ -3,12 +3,11 @@
     <div class="row">
       <div class="needs__text col-lg-6">
         <div class="needs__container">
-          <h2 class="needs__title text-sm-center text-md-end">
+          <h2 class="needs__title text-center text-md-end">
             كل ما تحتاجه لنمو متجرك في مكان واحد
           </h2>
-          <p class="needs__desc text-sm-center text-md-end">
+          <p class="needs__desc text-center text-md-end">
             مميزات سوق تطبيقات زد تساعدك في سهولة وسرعة الاستفادة من خدمات وحلول
-            <br />
             سوق التطبيقات لنمو متجرك ومضاعفة أرباحك
           </p>
           <ul class="needs__list">
@@ -114,7 +113,7 @@ export default {
   right: -70px;
   bottom: -70px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .needs__title {
     font-size: 1.4rem;
   }

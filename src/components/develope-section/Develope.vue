@@ -61,7 +61,7 @@ export default {
   bottom: -40px;
   right: -20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .develope__heading {
     font-size: 1.5rem;
   }

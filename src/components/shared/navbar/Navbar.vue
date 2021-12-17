@@ -87,7 +87,7 @@ export default {
 .logo {
   color: var(--main-color) !important;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .nav__container {
     width: 100%;
   }

@@ -16,7 +16,7 @@ export default {
   background-color: var(--yellow-color);
   position: absolute;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .circle {
     width: 200px;
     height: 200px;

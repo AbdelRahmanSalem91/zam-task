@@ -55,7 +55,7 @@ export default {
 .button {
   background-color: transparent;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .featured__section {
     padding-top: 100px;
     padding-bottom: 50px;

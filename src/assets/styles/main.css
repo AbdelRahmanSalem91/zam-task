@@ -60,7 +60,7 @@ footer {
 .footer img {
   border-radius: 15px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .footer .logo__text,
   .footer .icon {
     font-size: 1.2rem;
