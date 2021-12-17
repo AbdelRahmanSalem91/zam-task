@@ -10,7 +10,6 @@
     <Button class="button" />
     <div class="develope__video">
       <Square class="develope__square" />
-      <!-- <img :src="BrowseGif" alt="" /> -->
       <Video />
       <Circle class="develope__circle" />
     </div>
@@ -18,7 +17,6 @@
 </template>
 
 <script>
-import BrowseGif from "../../assets/images/browse.gif";
 import Button from "../shared/button/Button.vue";
 import Circle from "../shared/circle/Circle.vue";
 import Square from "../shared/square/Square.vue";

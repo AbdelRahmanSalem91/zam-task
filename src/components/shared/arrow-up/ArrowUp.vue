@@ -12,7 +12,6 @@ export default {
       visible: false,
     };
   },
-  // window.scrollTo(0, 0);
   methods: {
     scrollTop: function () {
       window.scrollTo(0, 0);
